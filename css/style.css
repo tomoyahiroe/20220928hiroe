@@ -2,7 +2,7 @@ body {
   font-family: "Ubuntu", "BIZ UDPGothic", sans-serif;
 }
 
-.header {
+header {
   padding: 20px 20px;
   display: flex;
   justify-content: space-between;
@@ -15,6 +15,9 @@ body {
 
 .header__navigation {
   width: 30%;
+}
+
+.header__navigation ul {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
@@ -24,6 +27,7 @@ body {
   margin: 10vh 0 0 auto;
   width: 50%;
 }
+
 .image > img {
   width: 100%;
 }
@@ -32,6 +36,7 @@ body {
   margin-top: -150px;
   font-size: 4rem;
 }
+
 .blue__label {
   content: "";
   position: absolute;
