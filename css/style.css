@@ -1,0 +1,42 @@
+body {
+  font-family: "Ubuntu", "BIZ UDPGothic", sans-serif;
+}
+
+.header {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(3, 3, 150);
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.header__navigation {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.image {
+  margin: 10vh 0 0 auto;
+  width: 50%;
+}
+.image > img {
+  width: 100%;
+}
+
+.catch__copy {
+  margin-top: -150px;
+  font-size: 4rem;
+}
+.blue__label {
+  content: "";
+  position: absolute;
+  height: 180px;
+  width: 75vw;
+  background-color: rgb(3, 3, 150);
+  z-index: -1;
+}
